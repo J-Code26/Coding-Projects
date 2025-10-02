@@ -22,3 +22,68 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ============================
+# OS & Cloud Sync Files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.icloud        # iCloud placeholder files
+*.tmp
+*.swp
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+.env
+venv/
+.venv/
+
+# ============================
+# Java
+# ============================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+*.log
+/out/
+/target/
+/build/
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+*.ipr
+*.iws
+*.project
+*.classpath
+.settings/
+
+# ============================
+# C / C++
+# ============================
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# ============================
+# General Development
+# ============================
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
